@@ -1,0 +1,163 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    /* background-color: #e2d9d1; */
+
+
+.logo img {
+    width: 150px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right ul {
+    display: flex;
+    gap: 35px;
+    font-size: 16px;
+    /* font-weight: bold; */
+    font-family: "Poppins", sans-serif;
+}
+
+.right ul li {
+    list-style: none;
+}
+
+.right ul li:hover {
+    cursor: pointer;
+    color: gray;
+}
+
+.Heading {
+    margin: 60px auto;
+    width: 55vw;
+    /* margin: auto; */
+    text-align: center;
+}
+
+.Heading button {
+    margin: -10px 40px 40px 40px;
+}
+
+.Heading button:hover{
+    cursor: pointer;
+}
+
+.content h2,
+p,
+button {
+    margin: 30px;
+}
+
+.content h2 {
+    font-size: 40px;
+    font-family: "Hind", sans-serif;
+    font-weight: 300;
+}
+
+.content h2 span {
+    font-family: roboto;
+    font-weight: bold;
+}
+
+.content p {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+}
+
+.content button {
+    border: none;
+    padding: 10px;
+    width: 300px;
+    background-color: #00b6d1;
+    border-radius: 8px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+
+.this {
+    align-items: center;
+    margin: 20px 380px;
+}
+
+.this img {
+    display: inline-block;
+
+}
+
+.this p {
+    display: inline-block;
+    margin: 0px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.this span {
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.thisisgrid {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    justify-content: center;
+    align-items: center;
+}
+
+.thisisgrid .items {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 240px;
+    /* border: 2px solid red; */
+    margin:  13px auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+    border-radius: 2px;
+    gap: 10px;
+  }
+
+.items h2{
+    font-size: 20px;
+    margin: 0px;
+    /* font-family: "Poppins", sans-serif; */
+    font-family: roboto;
+    font-weight: bold;
+
+}
+
+.items p{
+    font-size: 12px;
+    margin: 0px;
+    font-weight: 550;
+}
+
+#one{
+    margin-top: 50px;
+    background-color: #00b6d1;
+}
+
+#two{
+    background-color: #5cb85c;
+}
+
+.items button{
+    margin: 0px;
+    width: 60%;
+    height: 15%;
+    border-radius: 3px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.items button:hover{
+    cursor: pointer;
+}
